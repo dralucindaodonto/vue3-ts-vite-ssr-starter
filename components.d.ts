@@ -6,9 +6,15 @@ declare module 'vue' {
   export interface GlobalComponents {
     ElButton: typeof import('element-plus/lib')['ElButton']
     ElCard: typeof import('element-plus/lib')['ElCard']
+    ElCol: typeof import('element-plus/lib')['ElCol']
     ElForm: typeof import('element-plus/lib')['ElForm']
     ElFormItem: typeof import('element-plus/lib')['ElFormItem']
+    ElImage: typeof import('element-plus/lib')['ElImage']
     ElInput: typeof import('element-plus/lib')['ElInput']
+    ElMenu: typeof import('element-plus/lib')['ElMenu']
+    ElMenuItem: typeof import('element-plus/lib')['ElMenuItem']
+    ElRow: typeof import('element-plus/lib')['ElRow']
+    ElSubMenu: typeof import('element-plus/lib')['ElSubMenu']
   }
 }
 

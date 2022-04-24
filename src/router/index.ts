@@ -9,7 +9,7 @@ export default function () {
       {
         path: '/',
         name: 'index',
-        component: () => import('@/views')
+        component: () => import('@/views/index.vue')
       },
       {
         path: '/user',
